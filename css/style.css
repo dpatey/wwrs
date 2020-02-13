@@ -1,0 +1,49 @@
+body {
+	background: url(../img/bg.jpg) repeat;
+	background-size: 200px auto;
+	font-family: Arial;
+}
+
+.dialog {
+	background: #D4D0C9;
+	min-width: 300px;
+	max-width: 400px;
+	border-width: 2px;
+  	border-color: #FFFFFF #808080 #808080 #FFFFFF;
+  	border-style: solid;
+  	padding: 2px;
+  	position: absolute;
+  	top: 30%;
+  	left: 50%;
+  	transform: translate(-50%, -30%);
+}
+
+.dialog > .headline {
+	height: 20px;
+	background: linear-gradient(90deg, rgba(13,40,105,1) 0%, rgba(167,203,239,1) 100%);
+	line-height: 20px;
+	color: white;
+	padding: 3px 5px;
+}
+
+.dialog > .message {
+	margin-top: 10px;
+	padding: 5px 15px;
+	font-size: 24px;
+}
+
+.message > button {
+	display: block;
+	border-width: 2px;
+  	border-color: #FFFFFF #808080 #808080 #FFFFFF;
+  	border-style: solid;
+  	background: #D4D0C9;
+  	font-size: 16px;
+  	margin: 40px auto 10px auto;
+  	padding: 10px;
+}
+
+.message > button:active {
+	border-color: #808080 #FFFFFF #FFFFFF #808080;
+	outline: none;
+}
